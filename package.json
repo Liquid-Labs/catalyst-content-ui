@@ -1,0 +1,41 @@
+{
+  "name": "@liquid-labs/catalyst-content-ui",
+  "homepage": "https://zanerock.github.io/@liquid-labs/catalyst-content",
+  "version": "1.0.0-prototype.0",
+  "description": "Catalyst UI components for 'content' and related resources.",
+  "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
+  "license": "ISC",
+  "repository": "git@github.com:Liquid-Labs/catalyst-content.git",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "lint": "catalyst-scripts lint",
+    "lint-fix": "catalyst-scripts lint-fix",
+    "prebuild": "rm -rf dist/* && mkdir -p dist/",
+    "build": "catalyst-scripts build",
+    "watch": "catalyst-scripts watch",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@liquid-labs/catalyst-core-ui": "file:.yalc/@liquid-labs/catalyst-core-ui",
+    "@liquid-labs/catalyst-scripts": "^1.0.0-alpha.22",
+    "@liquid-labs/react-validation": "^1.0.0-prototype.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-markdown": "^4.0.8",
+    "squirrelly": "^7.1.1"
+  },
+  "peerDependencies": {
+    "@liquid-labs/catalyst-core-ui": "file:.yalc/@liquid-labs/catalyst-core-ui",
+    "@liquid-labs/react-validation": "^1.0.0-prototype.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-markdown": "^4.0.8",
+    "squirrelly": "^7.1.1"
+  }
+}
