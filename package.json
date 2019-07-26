@@ -1,7 +1,7 @@
 {
   "name": "@liquid-labs/catalyst-content-ui",
   "homepage": "https://zanerock.github.io/@liquid-labs/catalyst-content",
-  "version": "1.0.0-prototype.0",
+  "version": "1.0.0-prototype.1",
   "description": "Catalyst UI components for 'content' and related resources.",
   "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
   "license": "ISC",
@@ -19,8 +19,7 @@
     "watch": "catalyst-scripts watch",
     "prepare": "npm run build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@liquid-labs/catalyst-core-ui": "^1.0.0-prototype.8",
     "@liquid-labs/catalyst-scripts": "^1.0.0-alpha.22",
