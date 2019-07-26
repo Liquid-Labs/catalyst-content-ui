@@ -22,7 +22,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@liquid-labs/catalyst-core-ui": "file:.yalc/@liquid-labs/catalyst-core-ui",
+    "@liquid-labs/catalyst-core-ui": "^1.0.0-prototype.8",
     "@liquid-labs/catalyst-scripts": "^1.0.0-alpha.22",
     "@liquid-labs/react-validation": "^1.0.0-prototype.1",
     "prop-types": "^15.7.2",
@@ -31,7 +31,7 @@
     "squirrelly": "^7.1.1"
   },
   "peerDependencies": {
-    "@liquid-labs/catalyst-core-ui": "file:.yalc/@liquid-labs/catalyst-core-ui",
+    "@liquid-labs/catalyst-core-ui": "^1.0.0-prototype.8"
     "@liquid-labs/react-validation": "^1.0.0-prototype.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
